@@ -1,0 +1,130 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:13px;
+    .heading{
+        background-color:#f8f8f8;
+        .title{
+            display: flex;
+            height: 40px;
+            width: 1200px;
+            margin: auto;
+            .left{
+                width: 45%;
+                display: flex;
+                img{
+                    padding: 10px 0px;
+                    margin-right: 4px;
+                }
+                span{
+                    padding: 10px 0px;
+                }
+                .text-color{
+                    color:rgb(90, 165, 195);
+                    font-weight: bold;
+                    margin-left: 4px;
+                }
+            }
+            .right{
+                display: flex;
+                width: 50%;
+                padding: 0px 10px;
+                .registration{
+                    display: flex;
+                    width: 55%;
+                    img{
+                        padding: 10px 0px;
+                        margin-right: 4px;
+                    }
+                    span{
+                        padding: 10px 0px;
+                    }
+                }
+                .space{
+                    padding: 10px 18px;
+                    color: #ccc;
+                }
+                .coll-load{
+                    display: flex;
+                    padding: 8px 5px;
+                    margin-left: 6px;
+                }
+            }
+        }
+    }
+    .sub-heading{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        .container{
+            display: flex;
+            height: 100px;
+            width: 1200px;
+            margin: auto;
+            .title{
+                width: 12%;
+                height: 50px;
+                line-height: 50px;
+                P{
+                    font-size: 18px;
+                    color:#1685bc;
+                    font-weight: bold;
+                }
+            }
+            .classify-seach{
+                width: 45%;
+                display: flex;
+                .classify{
+                    width: 150px;
+                    height: 50px;
+                    display: flex;
+                    background-color: #f8f8f8;
+                    line-height: 50px;
+                    p{
+                        font-size: 16px;
+                        margin-left: 10px;
+                    }
+                    .fas{
+                        line-height: 48px;
+                        margin-left: 45px;
+                    }
+                }
+                .search-icon{
+                    position: relative;
+                    .search{
+                        width: 382px;
+                        height: 48px;
+                    }
+                    .icon{
+                        position: absolute;
+                        top: 15px;
+                        right: 15px;
+                    }
+                }
+            }
+            .notification{
+                width: 35%;
+                display: flex;
+                img{
+                    height: 50px;
+                    margin-left: 15px;
+                }
+                .img-text{
+                    display: flex;
+                    height: 50px;
+                    .text{
+                        line-height:50px;
+                    }
+                }
+            }
+            .infor{
+                float: right;
+                .gmail{
+
+                }
+            }
+        }
+    }
+}
