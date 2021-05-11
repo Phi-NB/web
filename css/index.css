@@ -542,6 +542,9 @@
   text-decoration: none;
   color: #fff;
 }
+#footer .content .left .login .sign-in:hover a {
+  color: #a59e9e;
+}
 #footer .content .left .login .sign_in {
   margin-left: 20px;
   border-left: 1px solid #fff;
@@ -553,6 +556,9 @@
 }
 #footer .content .left .login .sign_in a i {
   margin-left: 3px;
+}
+#footer .content .left .login .sign_in:hover a {
+  color: #a59e9e;
 }
 #footer .content .between {
   width: 50%;

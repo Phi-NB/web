@@ -500,7 +500,10 @@
                     a{
                         text-decoration: none;
                         color: #fff;
-                    }  
+                    } 
+                    &:hover a{
+                        color: rgb(165, 158, 158);
+                    } 
                 }
                 .sign_in{
                     margin-left: 20px;
@@ -512,6 +515,9 @@
                         i{
                             margin-left: 3px;
                         }
+                    }
+                    &:hover a{
+                        color: rgb(165, 158, 158);
                     }
                 }
             }
