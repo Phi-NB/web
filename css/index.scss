@@ -274,7 +274,6 @@
     width: 1200px;
     margin: auto;
     .left{
-        overflow-x: auto;
         width: 67%;
         margin: 50px 0px;
         margin-right: 25px;
@@ -286,7 +285,6 @@
             .category{
                 text-align: center;
                 width: 33.333%;
-               
                 a{
                     text-decoration: none;
                     color: #000;
@@ -323,7 +321,10 @@
                             height: 25px;
                         }
                         p{
-                            width: 695px;
+                            overflow: hidden; /* combo thuoc tinh de gioi han text hien thi */
+                            white-space: nowrap;
+                            max-width: 695px;
+                            text-overflow: ellipsis;
                         }
                        
                     }
@@ -352,6 +353,10 @@
                     p{
                         margin-left: 20px;
                         font-size: 15px;
+                        display: -webkit-box; /* combo thuoc tinh cho phep doan text duoc hien thi bao nhie dong*/
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 4;  
+                        overflow: hidden;
                     }
                     &:hover{
                         color: #177fb2;
@@ -421,6 +426,10 @@
                         padding: 10px 0;
                         font-size: 14px;
                         margin-left: 6px;
+                        overflow: hidden; /* combo thuoc tinh de gioi han text hien thi */
+                        white-space: nowrap;
+                        max-width: 248px;
+                        text-overflow: ellipsis;
                     }
                 }
                 .infor{
@@ -431,6 +440,10 @@
                             display: block;
                             margin-left: 8px;
                             font-size: 14px;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            max-width: 200px;
                         }
                         .color-number{
                             color: #df3f29;

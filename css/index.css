@@ -312,7 +312,6 @@
   margin: auto;
 }
 #content .left {
-  overflow-x: auto;
   width: 67%;
   margin: 50px 0px;
   margin-right: 25px;
@@ -368,7 +367,11 @@
   height: 25px;
 }
 #content .left .content-list .list a li p {
-  width: 695px;
+  overflow: hidden;
+  /* combo thuoc tinh de gioi han text hien thi */
+  white-space: nowrap;
+  max-width: 695px;
+  text-overflow: ellipsis;
 }
 #content .left .content-list .list a .boder {
   border-top: 1px dashed #ececec;
@@ -393,6 +396,11 @@
 #content .right .content-section .img-text a p {
   margin-left: 20px;
   font-size: 15px;
+  display: -webkit-box;
+  /* combo thuoc tinh cho phep doan text duoc hien thi bao nhie dong*/
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
 }
 #content .right .content-section .img-text a:hover {
   color: #177fb2;
@@ -462,6 +470,11 @@
   padding: 10px 0;
   font-size: 14px;
   margin-left: 6px;
+  overflow: hidden;
+  /* combo thuoc tinh de gioi han text hien thi */
+  white-space: nowrap;
+  max-width: 248px;
+  text-overflow: ellipsis;
 }
 #document-list .row .coll .text .infor .img-text {
   display: -webkit-box;
@@ -473,6 +486,10 @@
   display: block;
   margin-left: 8px;
   font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 200px;
 }
 #document-list .row .coll .text .infor .img-text .color-number {
   color: #df3f29;
