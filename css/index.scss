@@ -90,7 +90,7 @@
                     }
                     p{
                         font-size: 15px;
-                        margin-left: 10px;
+                        margin-left: 15px;
                     }
                     .fas{
                         line-height: 48px;
@@ -99,15 +99,14 @@
                    .sub-menu{
                        display: none;
                         position:absolute;
-                        top: 140px;
+                        top: 50px;
                         width: 222px;
-                        height: 222px;
+                        height: 205px;
                         background-color: #fff;
                         box-shadow: 0 0 10px rgba(0,0,0,0.1);
                         transition: 0.4s;
                         ul{
                             list-style: none;
-                            padding: 0px 15px;
                             display: block;
                             a{
                                 text-decoration: none;
@@ -117,12 +116,12 @@
                                 height: 40px;
                                 li{
                                     display: flex;
-                                    p{
-                                        width: 80%;
-                                    }
+                                    justify-content: space-between;
+                                    padding-right:15px;
                                 }
                                 &:hover{
                                     color: #479bd7;
+                                    background-color: #f8f8f8;
                                 }
                             }
                         }
@@ -216,18 +215,24 @@
         margin: auto;
         display: flex;
         list-style: none;
+        justify-content: space-between;
         a{
             text-decoration: none;
+            color: #fff;
+            display: block;
+            font-weight: 300;
+            text-align: center;
             &:hover{
                 background-color: #177fb2;
             }
         }
+
         .home{
             font-weight: 300;
             width: 133px;
-            background-color: #177fb2;
             height: 60px;
             color:#fff;
+            background-color: #177fb2;
             text-align: center;
             img{
                 margin-top: 8px;
@@ -254,7 +259,7 @@
         }
         .general{
             font-weight: 300;
-            padding:0 27px;
+            padding:0 20px;
             line-height: 60px;
             color: #fff;
             &:hover{
@@ -269,6 +274,7 @@
     width: 1200px;
     margin: auto;
     .left{
+        overflow-x: auto;
         width: 67%;
         margin: 50px 0px;
         margin-right: 25px;
@@ -278,8 +284,9 @@
             height: 50px;
             background-color: #f1f5f8;
             .category{
-                padding: 0 50px;
+                text-align: center;
                 width: 33.333%;
+               
                 a{
                     text-decoration: none;
                     color: #000;
@@ -288,6 +295,16 @@
                 }
                 &:hover{
                     background-color: #fff;
+                    font-weight: bold;
+                    a{
+                        font-size: 14px;
+                    }
+                }
+            }
+            .other{
+                background-color: #fff;
+                a{
+                    color: #000;
                     font-weight: bold;
                 }
             }
@@ -324,6 +341,7 @@
         width: 33%;
         margin: 50px 0px;
         position: relative;
+        overflow-x: auto;
         .content-section{
             .img-text{      
                 a{
@@ -379,9 +397,14 @@
         display: flex;
         width: 100%;
         margin-bottom: 30px;
+        a{
+            text-decoration: none;
+            color: #000;
+        }
         .coll{
             width: 24%;
             height: 426px;
+            overflow-x: auto;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             .img{
                 img{
