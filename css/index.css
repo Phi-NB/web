@@ -758,7 +758,8 @@
     margin-left: 0px;
   }
   #content .left {
-    width: 80%;
+    width: 100%;
+    max-width: 600px;
     margin: auto;
   }
   #content .left .heading .category a {
@@ -772,8 +773,8 @@
     color: #479bd7;
   }
   #content .right {
-    width: 30%;
-    width: 650px;
+    width: 100%;
+    max-width: 630px;
     margin: 40px auto;
   }
   #content .right .content-section .img-text a {
@@ -808,6 +809,7 @@
     margin-left: 0px;
     margin-bottom: 0px;
     width: 100%;
+    max-width: 650px;
   }
   #document-list .row .coll {
     margin-bottom: 40px;
@@ -815,7 +817,8 @@
   }
 
   #infor-warning .icon-text {
-    width: 720px;
+    width: 100%;
+    max-width: 700px;
   }
 
   #footer .content {
@@ -883,7 +886,7 @@
     display: none;
   }
   #header .heading .title .right .coll-load {
-    margin-left: -65px;
+    margin-left: -35px;
     padding-top: 11px;
   }
   #header .heading .title .right .coll-load .coll img {
@@ -918,8 +921,8 @@
     padding: 0px 0px;
     margin-left: 0px;
     overflow: visible;
-    width: 44%;
-    margin-left: -45px;
+    width: 45%;
+    margin-left: 18px;
   }
   #header .sub-heading .container .notification a img {
     margin-left: 0px;
@@ -940,13 +943,13 @@
     font-size: 14px;
   }
   #header .sub-heading .container .classify-seach .classify .fas {
-    margin-left: 200px;
+    margin-left: 225px;
   }
   #header .sub-heading .container .classify-seach .search-icon {
     width: 100%;
   }
   #header .sub-heading .container .logo {
-    width: 30%;
+    width: 45%;
     display: block;
     margin-left: 0px;
   }
@@ -964,13 +967,15 @@
 
   #content {
     display: block;
-    margin-top: 135px;
+    margin-top: 116px;
     width: 100%;
+    max-width: 414px;
     margin-right: 0px;
     margin-left: 0px;
   }
   #content .left {
-    width: 80%;
+    width: 100%;
+    max-width: 332px;
     margin: auto;
   }
   #content .left .heading {
@@ -1002,7 +1007,8 @@
     color: #479bd7;
   }
   #content .right {
-    width: 80%;
+    width: 100%;
+    max-width: 340px;
     margin: 40px auto;
   }
   #content .right .content-section .img-text a {
@@ -1014,14 +1020,15 @@
     font-size: 14px;
   }
   #content .right .content-section .text {
-    left: 70px;
+    left: 92px;
   }
   #content .right .content-section .border-first {
     padding-top: 20px;
   }
 
   #document-list {
-    width: 300px;
+    width: 100%;
+    max-width: 332px;
     margin: auto;
   }
   #document-list .title {
@@ -1043,6 +1050,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
+    margin-bottom: 0px;
   }
   #document-list .row .coll {
     margin-bottom: 40px;

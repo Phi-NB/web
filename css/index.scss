@@ -724,7 +724,8 @@
         margin-right: 0px;
         margin-left: 0px;
         .left{
-            width: 80%;
+            width: 100%;
+            max-width: 600px;
             margin: auto;
             .heading{
                 .category{
@@ -749,8 +750,8 @@
             }
         }
         .right{
-            width: 30%;
-            width: 650px;
+            width: 100%;
+            max-width: 630px;
             margin: 40px auto;
             .content-section{
                 .img-text{
@@ -787,6 +788,7 @@
             margin-left: 0px;
             margin-bottom: 0px;
             width: 100%;
+            max-width: 650px;
             .coll{
                 margin-bottom: 40px;
                 width: 46%;
@@ -795,7 +797,8 @@
     }
     #infor-warning{
         .icon-text{
-            width: 720px;
+            width: 100%;
+            max-width: 700px;
         }
     }
     #footer{
@@ -862,7 +865,7 @@
                         display: none;
                     }
                     .coll-load{
-                        margin-left: -65px;
+                        margin-left: -35px;
                         padding-top: 11px;
                         .coll{
                             img{
@@ -899,8 +902,8 @@
                     padding: 0px 0px;
                     margin-left: 0px;
                     overflow: visible;
-                    width: 44%;
-                    margin-left: -45px;
+                    width: 45%;
+                    margin-left: 18px;
                     a{
                         img{
                             margin-left: 0px;
@@ -922,7 +925,7 @@
                             font-size: 14px;
                         }
                         .fas{
-                            margin-left: 200px;
+                            margin-left: 225px;
                         }
                     }
                     .search-icon{
@@ -933,7 +936,7 @@
                     }
                 }
                 .logo{
-                    width: 30%;
+                    width: 45%;
                     display: block;
                     margin-left: 0px;
                     a{
@@ -955,12 +958,14 @@
 
     #content{
         display:block;
-        margin-top: 135px;
+        margin-top: 116px;
         width: 100%;
+        max-width: 414px;
         margin-right: 0px;
         margin-left: 0px;
         .left{
-            width: 80%;
+            width: 100%;
+            max-width: 332px;
             margin: auto;
             .heading{
                 margin-bottom: 90px;
@@ -993,7 +998,8 @@
             }
         }
         .right{
-            width: 80%;
+            width: 100%;
+            max-width: 340px;
             margin: 40px auto;
             .content-section{
                 .img-text{
@@ -1007,7 +1013,7 @@
                     }
                 }
                 .text{
-                    left: 70px;
+                    left: 92px;
                 }
                 .border-first{
                     padding-top: 20px
@@ -1017,7 +1023,8 @@
     }
 
     #document-list{
-        width: 300px;
+        width: 100%;
+        max-width: 332px;
         margin: auto;
         .title{
             width: 100%;
@@ -1033,6 +1040,7 @@
             flex-direction: column;
             justify-content: center;
             width: 100%;
+            margin-bottom:  0px;
             .coll{
                 margin-bottom: 40px;
                 width: 100%;
