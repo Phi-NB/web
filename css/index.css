@@ -674,7 +674,7 @@
 @media (min-width: 740px) and (max-width: 1023px) {
   #header {
     width: 100%;
-    max-width: 1024px;
+    max-width: 768px;
     height: 200px;
   }
   #header .heading {
@@ -685,26 +685,25 @@
   #header .heading .title {
     padding: 3px 0;
     margin: auto;
-    width: 784px;
+    width: 100%;
+    max-width: 784px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
   #header .heading .title .left {
-    width: 25%;
-    margin-left: 78px;
+    width: 50%;
+    margin-left: 84px;
   }
   #header .heading .title .right {
-    width: 20%;
+    width: 50%;
+    margin-left: 139px;
   }
   #header .heading .title .right .registration {
     display: none;
   }
   #header .heading .title .right .space {
     display: none;
-  }
-  #header .heading .title .right .coll-load {
-    margin-left: -120px;
   }
   #header .heading .title .right .coll-load .load {
     margin-left: 10px;
@@ -736,11 +735,11 @@
   }
   #header .sub-heading .container .classify-seach {
     width: 65%;
-    margin-left: 50px;
+    margin-left: 84px;
   }
   #header .sub-heading .container .logo {
     display: block;
-    margin-left: 100px;
+    margin-left: 180px;
   }
   #header .sub-heading .container .infor {
     display: none;
@@ -796,7 +795,8 @@
     margin: auto;
   }
   #document-list .title {
-    width: 95%;
+    width: 100%;
+    max-width: 617px;
     margin: auto;
     margin-bottom: 40px;
   }
@@ -822,17 +822,29 @@
   }
 
   #footer .content {
-    height: 725px;
+    height: 670px;
     display: block;
+    width: 100%;
   }
   #footer .content .left {
+    width: 100%;
+    max-width: 680px;
     margin-left: 40px;
   }
   #footer .content .between {
+    width: 100%;
+    max-width: 680px;
+    margin-left: 30px;
+  }
+  #footer .content .right {
+    width: 100%;
+    max-width: 680px;
+  }
+  #footer .content .right p {
     margin-left: 40px;
   }
   #footer .content .right img {
-    margin-left: 45px;
+    margin-left: 40px;
   }
 
   #sub-footer .container {
@@ -847,37 +859,40 @@
   }
   #sub-footer .container .social {
     width: 100%;
+    margin-right: 40px;
   }
 }
 /* Mobile */
 @media (max-width: 740px) {
   #header {
     width: 100%;
-    max-width: 590px;
     height: 200px;
   }
   #header .heading {
     height: 45px;
     margin: auto;
     width: 100%;
+    max-width: 414px;
   }
   #header .heading .title {
     padding: 3px 0;
     margin: auto;
-    width: 784px;
+    max-width: 414px;
+    width: 100%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
   #header .heading .title .left {
-    width: 25%;
+    width: 50%;
     margin-left: 20px;
   }
   #header .heading .title .left span {
     font-size: 12px;
   }
   #header .heading .title .right {
-    width: 70%;
+    width: 50%;
+    margin-left: 44px;
   }
   #header .heading .title .right .registration {
     display: none;
@@ -886,7 +901,7 @@
     display: none;
   }
   #header .heading .title .right .coll-load {
-    margin-left: -35px;
+    margin-left: -23px;
     padding-top: 11px;
   }
   #header .heading .title .right .coll-load .coll img {
@@ -940,10 +955,10 @@
     width: 100%;
   }
   #header .sub-heading .container .classify-seach .classify p {
-    font-size: 14px;
+    font-size: 13px;
   }
   #header .sub-heading .container .classify-seach .classify .fas {
-    margin-left: 225px;
+    margin-left: 210px;
   }
   #header .sub-heading .container .classify-seach .search-icon {
     width: 100%;
@@ -1071,17 +1086,27 @@
     height: 725px;
     display: block;
     font-size: 12px;
+    width: 100%;
   }
   #footer .content .left {
-    width: 29%;
+    width: 100%;
     margin-left: 10px;
+    max-width: 350px;
   }
   #footer .content .between {
-    width: 30%;
+    width: 100%;
     margin-left: 0px;
+    max-width: 350px;
+  }
+  #footer .content .right {
+    width: 100%;
+    max-width: 350px;
+  }
+  #footer .content .right p {
+    margin-left: 36px;
   }
   #footer .content .right img {
-    margin-left: 45px;
+    margin-left: 36px;
   }
 
   #sub-footer .container {
